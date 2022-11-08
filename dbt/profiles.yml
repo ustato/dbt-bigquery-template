@@ -1,0 +1,21 @@
+main:
+  target: local
+  outputs:
+    local:
+      type: bigquery
+      method: emulator
+      endpoint: http://0.0.0.0:9050
+      project: test
+      schema: test
+      threads: 1
+
+# elementary:
+#   target: local
+#   outputs:
+#     local:
+#       type: bigquery
+#       method: emulator
+#       endpoint: http://0.0.0.0:9050
+#       project: test
+#       schema: test
+#       threads: 1
