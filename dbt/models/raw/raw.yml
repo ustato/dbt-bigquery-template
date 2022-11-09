@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: table_a
+        columns:
+          - name: id
+          - name: name
+          - name: structarr
+          - name: birthday
+          - name: skillNum
+          - name: created_at
+
+      - name: table_b
+        columns:
+          - name: num
+          - name: bignum
+          - name: interval

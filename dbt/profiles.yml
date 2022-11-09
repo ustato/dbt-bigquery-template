@@ -5,7 +5,7 @@ main:
       type: bigquery
       method: emulator
       endpoint: http://0.0.0.0:9050
-      project: test
+      project: local
       schema: test
       threads: 1
 
@@ -16,6 +16,6 @@ main:
 #       type: bigquery
 #       method: emulator
 #       endpoint: http://0.0.0.0:9050
-#       project: test
+#       project: local
 #       schema: test
 #       threads: 1
